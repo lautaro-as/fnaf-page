@@ -58,7 +58,7 @@ nav {
     margin-top: 25px;
     margin-right: 15px;
     width: fit-content;
-    height: 22px;
+    height: 18px;
 
 }
 .nav-page {
@@ -88,53 +88,8 @@ body {
     margin: 0;
 
 }
-h2 {
+.content-link {
 
-    text-align: center;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: white;
-
-}
-h3 {
-
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    margin-left: 4%;
-
-}
-h4 {
-
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-
-}
-a {
-
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-right: 5px;
-    color: white;
-
-}
-figure {
-
-    text-align: center;
-
-}
-li {
-
-    margin-left: 5%;
-    margin-bottom: 8px;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -152,6 +107,68 @@ li {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
+    text-decoration: none;
+
+}
+.content-link:hover {
+
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px black;
+
+}
+#proceso {
+
+    padding-left: 4%;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(31, 31, 31);
+
+}
+#argumento {
+
+    padding-left: 4%;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(31, 31, 31);
+
+}
+h2 {
+
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 24px;
+
+}
+h3 {
+
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-left: 4%;
+    font-size: 20px;
+
+}
+hr {
+
+    margin-bottom: 0px;
+
+}
+a {
+
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-right: 5px;
+    color: white;
+    cursor: url(../imagenes/cursor/microphone.cur), auto;
 
 }
 p {
@@ -175,69 +192,81 @@ p {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
+    font-size: 18px;
 
 }
-.desc {
+ol {
+
+    margin-left: 100px;
+
+}
+li {
+
+    margin-bottom: 8px;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    color: rgb(226, 223, 223);
+    font-size: 18px;
+
+}
+figure {
 
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 30px;
 
 }
-.personaje {
+figcaption {
 
-    text-align: center;
-    margin-left: 0;
-    color:rgb(134, 134, 134);
-    text-shadow: 2px 2px 5px rgb(83, 83, 83);
-
-}
-.actor {
-
-    height: 189px;
-    width: 146px;
-    border-radius: 10px;
-
-}
-#freddy {
-
-    text-align: center;
-    margin-left: 0;
-    color: rgb(71, 39, 17);
-    text-shadow: 2px 2px 5px lightsalmon;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style:italic;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    color: rgb(226, 223, 223);
 
 }
-#bonnie {
+.moviephoto {
 
-    text-align: center;
-    margin-left: 0;
-    color: blue;
-    text-shadow: 2px 2px 5px lightblue;
+    height: 438px;
+    width: 780px;
 
 }
-#chica {
+.linkphoto {
 
-    text-align: center;
-    margin-left: 0;
-    color:gold;
-    text-shadow: 2px 2px 5px rgb(216, 216, 149);
+    height: 438px;
+    width: 780px;
 
 }
-#foxy {
+.linkphoto:hover {
 
-    text-align: center;
-    margin-left: 0;
-    color: rgb(180, 23, 23);
-    text-shadow: 2px 2px 5px lightsalmon;
-
-}
-#goldenfreddy {
-
-    text-align: center;
-    margin-left: 0;
-    color:rgb(187, 159, 1);
-    text-shadow: 2px 2px 5px rgb(233, 233, 126);
+    height: 442px;
+    width: 788px;
+    box-shadow: 5px 5px 15px rgb(19, 19, 19);
+    cursor: url(../imagenes/cursor/microphone.cur), auto;
 
 }
 footer {
@@ -261,6 +290,7 @@ footer {
 
     text-decoration: none;
     color: rgb(219, 78, 78);
+    font-size: 16px;
 
 }
 .a-footer:hover {
@@ -271,5 +301,15 @@ footer {
 .a-footer:active {
 
     color: rgb(51, 194, 51);
+
+}
+h4 {
+
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
 
 }

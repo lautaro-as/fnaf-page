@@ -20,49 +20,125 @@
 </head>
 <body>
     <header>
-        <h1 id="titleheader">FNAF - La pelicula</h1>
+        <div class="header-ico"></div>
+        <h1 id="titleheader"><a href="index.html" id="header-link">FNAF - La pelicula</a></h1>
         <nav>
-            <button id="selected">INICIO</button>
-            <a href="paginas/pelicula.html"><button>SOBRE LA PELÍCULA</button></a>
-            <a href="paginas/reparto.html"><button>REPARTO</button></a>
-            <a href="paginas/curiosidades.html"><button>CURIOSIDADES</button></a>
-            <a href="paginas/contacto.html"><button>CONTACTO</button></a>
+            <a id="selected">INICIO</a>
+            <a href="paginas/pelicula.html" class="nav-page">SOBRE LA PELÍCULA</a>
+            <a href="paginas/reparto.html" class="nav-page">REPARTO</a>
+            <a href="paginas/curiosidades.html" class="nav-page">CURIOSIDADES</a>
+            <a href="paginas/contacto.html" class="nav-page">CONTACTO</a>
         </nav>
     </header>
     <main>
         <h2>NOCHE 1 - FICHA TÉCNICA</h2>
-        <ul>
-            <li><strong>Trama</strong>: Un guardia de seguridad acepta un trabajo nocturno en <strong>una pizzeria abandonada</strong>, que ofrecía un espectáculo 
-            con <strong>animatronicos</strong> que parecian estar desactivados.</li>
-            <li><strong>Generos</strong>:</li>
-            <ul>
-                <li>Terror</li>
-                <li>Suspenso</li>
+        <div class="ficha-container">
+            <figure>
+                <img src="imagenes/poster/poster.jpg" alt="Poster de la película" id="poster">
+            </figure> 
+            <ul class="ficha-tecnica">
+                <li><strong>Trama</strong>: Un guardia de seguridad acepta un trabajo nocturno en <strong>una pizzeria abandonada</strong>, que ofrecía un espectáculo 
+                con <strong>animatronicos</strong> que parecian estar desactivados.</li>
+                <li><strong>Generos</strong>:</li>
+                <ul>
+                    <li>Terror</li>
+                    <li>Suspenso</li>
+                </ul>
+                <li><strong>Distribución</strong>: Universal Pictures</li>
+                <ul>
+                    <li><strong>Productora</strong>: Blumhouse</li>
+                </ul>
+                    <li><strong>Fecha de estreno</strong>:</li>
+                <ul>
+                    <li>25 de Octubre de 2023 (Reino Unido).</li>
+                    <li>27 de Octubre de 2023 (Estados Unidos).</li>
+                </ul>
+                    <li><strong>Duración</strong>: 1 hora 49 minutos.</li>
+                    <li><strong>Clasificación</strong>: Para mayores de 13 años.</li>
+                </ul>
             </ul>
-            <li><strong>Distribución</strong>: Universal Pictures</li>
-            <ul>
-                <li><strong>Productora</strong>: Blumhouse</li>
-            </ul>
-            <li><strong>Fecha de estreno</strong>:</li>
-            <ul>
-                <li>25 de Octubre de 2023 (Reino Unido).</li>
-                <li>27 de Octubre de 2023 (Estados Unidos).</li>
-            </ul>
-            <li><strong>Duración</strong>: 1 hora 49 minutos.</li>
-            <li><strong>Clasificación</strong>: Para mayores de 13 años.</li>
-            </ul>
-        <figure>
-            <img src="imagenes/poster/poster.jpg" alt="Poster de la película" id="poster">
-            <figcaption><strong>Poster de la película (Estados Unidos)</strong></figcaption>
-        </figure>
+        </div>
+        <h2>EXPLORA LA PÁGINA</h2>
+        <div class="section-nav">
+            <figure class="fig-nav">
+                <img src="imagenes/pelicula/animatronicos.jpg" alt="Sobre la pelicula" class="img-nav">
+            </figure>
+            <div class="text-container-nav">
+                <h3>SOBRE LA PELICULA</h3>
+                <p>En esta seccion encontraras informacion de:</p>
+                <ul class="ul-container-nav">
+                    <li>El proceso de desarrollo de la pelicula</li>
+                    <li>El impacto que tuvo en la industria del cine</li>
+                    <li>Argumento de la pelicula</li>
+                    <li>Detalle de todos los personajes y escenas</li>
+                </ul>
+                <div class="link-container">
+                    <a href="paginas/pelicula.html" class="button-link">Haz clic para visitar la seccion</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-nav">
+            <figure class="fig-nav">
+                <img src="imagenes/pelicula/guardia de seguridad.jpeg" alt="Reparto" class="img-nav">
+            </figure>
+            <div class="text-container-nav">
+                <h3>REPARTO</h3>
+                <p>En esta seccion encontraras informacion de:</p>
+                <ul class="ul-container-nav">
+                    <li>Nombre de los actores</li>
+                    <li>Detalles sobre el personaje que interpretan</li>
+                    <li>Actores de voz</li>
+                    <li>Actores para los animatronicos</li>
+                </ul>
+                <div class="link-container">
+                    <a href="paginas/reparto.html" class="button-link">Haz clic para visitar la seccion</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-nav">
+            <figure class="fig-nav">
+                <img src="imagenes/curiosidades/balloon boy.jpg" alt="Curiosidades" class="img-nav">
+            </figure>
+            <div class="text-container-nav">
+                <h3>CURIOSIDADES</h3>
+                <p>En esta seccion encontraras informacion de:</p>
+                <ul class="ul-container-nav">
+                    <li>Referencias a la saga de videojuegos</li>
+                    <li>Premios que recibio la pelicula</li>
+                    <li>Recepcion de la critica</li>
+                    <li>Apariciones de celebridades</li>
+                </ul>
+                <div class="link-container">
+                    <a href="paginas/curiosidades.html" class="button-link">Haz clic para visitar la seccion</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-nav">
+            <figure class="fig-nav">
+                <img src="imagenes/produccion/fnaf teaser.jpg" alt="Contacto" class="img-nav">
+            </figure>
+            <div class="text-container-nav">
+                <h3>CONTACTO</h3>
+                <p>Esta seccion esta hecha para aquellos que:</p>
+                <ul class="ul-container-nav">
+                    <li>Quieran realizar consultas sobre la pelicula</li>
+                    <li>Quieran ver las plataformas de Streaming disponibles</li>
+                    <li>Quieran visitar la pagina oficial de la pelicula</li>
+                    <li>Quieran visitar las redes sociales de la productora</li>
+                </ul>
+                <div class="link-container">
+                    <a href="paginas/contacto.html" class="button-link">Haz clic para visitar la seccion</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <h4>SITIO WEB HECHO POR LAUTARO MEDINA</h4>
-        <a href="index.html">INICIO</a>
-        <a href="paginas/pelicula.html">SOBRE LA PELÍCULA</a>
-        <a href="paginas/reparto.html">REPARTO</a>
-        <a href="paginas/curiosidades.html">CURIOSIDADES</a>
-        <a href="paginas/contacto.html" id="endfooter">CONTACTO</a>  
+        <h4 class="footer-h4">SITIO WEB HECHO POR LAUTARO MEDINA</h4>
+        <a href="index.html" class="a-footer">INICIO</a>
+        <a href="paginas/pelicula.html" class="a-footer">SOBRE LA PELÍCULA</a>
+        <a href="paginas/reparto.html" class="a-footer">REPARTO</a>
+        <a href="paginas/curiosidades.html" class="a-footer">CURIOSIDADES</a>
+        <a href="paginas/contacto.html" class="a-footer">CONTACTO</a>
     </footer>
 </body>
 </html>

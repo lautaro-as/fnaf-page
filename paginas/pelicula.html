@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="../estilos/principal.css">
+    <link rel="stylesheet" href="../estilos/pelicula.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +20,14 @@
 </head>
 <body>
     <header>
-        <h1 id="titleheader">FNAF - La pelicula</h1>
+        <div class="header-ico"></div>
+        <h1 id="titleheader"><a href="../index.html" id="header-link">FNAF - La pelicula</a></h1>
         <nav>
-            <a href="../index.html"><button>INICIO</button></a>
-            <button id="selected">SOBRE LA PELÍCULA</button>
-            <a href="reparto.html"><button>REPARTO</button></a>
-            <a href="curiosidades.html"><button>CURIOSIDADES</button></a>
-            <a href="contacto.html"><button>CONTACTO</button></a>
+            <a href="../index.html" class="nav-page">INICIO</a>
+            <a id="selected">SOBRE LA PELÍCULA</a>
+            <a href="reparto.html" class="nav-page">REPARTO</a>
+            <a href="curiosidades.html" class="nav-page">CURIOSIDADES</a>
+            <a href="contacto.html" class="nav-page">CONTACTO</a>
         </nav>
     </header>
     <main>
@@ -35,12 +36,12 @@
             <aside>
                 <h3>CONTENIDO DE LA PÁGINA:</h3>
                 <ol>
-                    <li><strong>Proceso de desarrollo.</strong></li>
-                    <li><strong>Argumento (Contiene spoilers).</strong></li>
+                    <li><a href="#proceso" class="content-link">Proceso de desarrollo.</a></li>
+                    <li><a href="#argumento" class="content-link">Argumento (Contiene spoilers).</a></li>
                 </ol>
             </aside>
             <hr>
-            <h3>PROCESO DE DESARROLLO</h3>
+            <h3 id="proceso">PROCESO DE DESARROLLO</h3>
             <article>
                 <p>La película tuvo un <strong>proceso de producción complicada</strong>. En 2015, un año despues del lanzamiento del primer videojuego, <i>Warner Bros</i> adquirió
                 los derechos de la película de Five Nights at Freddy's. <b>Scott Cawthon</b>, <i>creador del videojuego</i>, se encontró involucrado en la película para garantizar 
@@ -73,14 +74,14 @@
                 años de desarrollo, la película estaba <b>cada vez mas cerca de llegar a la gran pantalla</b>. <i>Haz clic en la imágen de abajo para ver el teaser</i>.</p> 
             </article>
             <figure>
-                <a href="https://www.youtube.com/watch?v=f-zqS2CiZqw" target="_blank"><img src="../imagenes/produccion/fnaf teaser.jpg" alt="Teaser" class="moviephoto"></a>
+                <a href="https://www.youtube.com/watch?v=f-zqS2CiZqw" target="_blank"><img src="../imagenes/produccion/fnaf teaser.jpg" alt="Teaser" class="linkphoto"></a>
             </figure>
             <article>
                 <p><i>El 27 de Octubre</i>, finalmente, <b>salió la película de Five Nights At Freddy's</b>, siendo un exito en taquilla y ya estando en producción <b>la 
                 segunda película</b> que saldrá en diciembre. <i>Cliqueando la imágen, podras acceder al teaser de la segunda película</i>.</p>
             </article>
             <figure>
-                <a href="https://www.youtube.com/watch?v=hA8NBOq8hsQ" target="_blank"><img src="../imagenes/produccion/fnaf 2.jpg" alt="Five Nights At Freddy's 2" class="moviephoto"></a>
+                <a href="https://www.youtube.com/watch?v=hA8NBOq8hsQ" target="_blank"><img src="../imagenes/produccion/fnaf 2.jpg" alt="Five Nights At Freddy's 2" class="linkphoto"></a>
             </figure>
             <article>
                 <p>Esta película, a pesar de <b>no ser avalada por la crítica</b>, demostró que <i>las adaptaciones de videojuegos</i>, categoría que estaba medianamente extinta, 
@@ -89,7 +90,7 @@
         </section>
         <hr>
         <section>
-            <h3>ARGUMENTO (CONTIENE SPOILERS)</h3>
+            <h3 id="argumento">ARGUMENTO (CONTIENE SPOILERS)</h3>
             <article>
                 <p>Esta película ocurre en una pizzeria abandonada llamada <b>Freddy Fazbear Pizza</b>, la cual fue clausurada en los ochenta tras <b>la desaparación de 5 niños</b>. 
                 Despues de que <b>Mike Schmidth</b>, un empleado de seguridad <i>problemático</i>, fuera despedido de su antiguo empleo y enfrente un juicio por la custodia de su 
@@ -148,12 +149,12 @@
         </section>
     </main>
     <footer>
-        <h4>SITIO WEB HECHO POR LAUTARO MEDINA</h4>
-        <a href="../index.html">INICIO</a>
-        <a href="pelicula.html">SOBRE LA PELICULA</a>
-        <a href="reparto.html">REPARTO</a>
-        <a href="curiosidades.html">CURIOSIDADES</a>
-        <a href="contacto.html" id="endfooter">CONTACTO</a>
+        <h4 class="footer-h4">SITIO WEB HECHO POR LAUTARO MEDINA</h4>
+        <a href="../index.html" class="a-footer">INICIO</a>
+        <a href="pelicula.html" class="a-footer">SOBRE LA PELICULA</a>
+        <a href="reparto.html" class="a-footer">REPARTO</a>
+        <a href="curiosidades.html" class="a-footer">CURIOSIDADES</a>
+        <a href="contacto.html" class="a-footer">CONTACTO</a>
     </footer>
 </body>
 </html>

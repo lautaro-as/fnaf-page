@@ -20,69 +20,91 @@
 </head>
 <body>
   <header>
-    <h1 id="titleheader">FNAF - La pelicula</h1>
+    <div class="header-ico"></div>
+    <h1 id="titleheader"><a href="../index.html" id="header-link">FNAF - La pelicula</a></h1>
     <nav>
-      <a href="../index.html"><button>INICIO</button></a>
-      <a href="pelicula.html"><button>SOBRE LA PELÍCULA</button></a>
-      <a href="reparto.html"><button>REPARTO</button></a>
-      <a href="curiosidades.html"><button>CURIOSIDADES</button></a>
-      <button id="selected">CONTACTO</button>
+        <a href="../index.html" class="nav-page">INICIO</a>
+        <a href="pelicula.html" class="nav-page">SOBRE LA PELÍCULA</a>
+        <a href="reparto.html" class="nav-page">REPARTO</a>
+        <a href="curiosidades.html" class="nav-page">CURIOSIDADES</a>
+        <a id="selected">CONTACTO</a>
     </nav>
   </header>
   <main>
     <h2>NOCHE 5 - CONTACTO</h2>
       <p class="desc"><b>Tu opinión nos interesa. Escribí debajo tus comentarios sobre la película o alguna consulta que téngas.</b></p>
-      <p class="desc"><b>Cliqueando en las imagenes de abajo, vas a poder acceder a sitios externos para obtener mas información de la película, incluyendo
-        una plataforma de streaming donde podrás verla.</b></p><hr>
+      <hr>
       <h3 class="desc">VISITA LAS REDES SOCIALES/CONTENIDO DE LA PELÍCULA</h3>
-      <div>
-       <figure>
-         <a href="https://www.universalpictures-latam.com/micro/five-nights" target="_blank"><img src="../imagenes/contacto/pagina oficial.png" alt="Sitio web oficial" class="moviephoto"></a>
-      </figure>
-      <figcaption>
-        <p class="desc"><strong>Visita el <i>sitio web</i> de la película</strong></p>
-      </figcaption> 
-      </div>
-      <div>
-        <figure>
-        <a href="https://www.instagram.com/universalpictureslatam/" target="_blank"><img src="../imagenes/contacto/instagram.png" alt="Instagram" class="socialmedia"></a>
-      </figure>
-      <figcaption>
-        <p class="desc"><strong>Visita el <i>instagram</i> de Universal</strong></p>
-      </figcaption>
-      </div>
-      <div>
-        <figure>
-        <a href="https://www.youtube.com/watch?v=MLpP8BMlqiE" target="_blank"><img src="../imagenes/contacto/preview.jpg" alt="Vista previa" class="moviephoto"></a>
-      </figure>
-      <figcaption>
-        <p class="desc"><strong>Mira la <i>vista previa</i> de la película</strong></p>
-      </figcaption>
-      </div>
-      <div>
-        <figure>
-        <a href="https://www.facebook.com/UniversalPicturesLatam" target="_blank"><img src="../imagenes/contacto/facebook.png" alt="Facebook" class="socialmedia"></a>
-      </figure>
-      <figcaption>
-        <p class="desc"><strong>Visita el <i>facebook</i> de Universal</strong></p>
-      </figcaption>
-      </div>
-      <div>
-        <figure>
-        <a href="https://www.max.com/ar/es/movies/five-nights-at-freddys/7af81121-c224-4cd7-8900-5827e6a5ee87" target="_blank"><img src="../imagenes/contacto/max logo.jpg" alt="HBO Max" class="socialmedia"></a>
-      </figure>
-      <figcaption>
-        <p class="desc"><strong>Ver en <i>HBO Max</i></strong></p>
-      </figcaption>
-      </div>
+      <ul>
+        <li class="media-container">
+          <figure>
+            <img src="../imagenes/contacto/pagina oficial.png" alt="Pagina oficial" class="fullphoto">
+          </figure>
+          <div class="text-container-fullphoto">
+            <h2 class="container-h2">PÁGINA OFICIAL</h2>
+            <p><b>Accedé a la web oficial de la película</b></p>
+            <div class="link-container">
+              <a href="paginas/contacto.html" class="button-link">Haz clic para visitar la página</a>
+            </div>
+          </div>
+        </li>
+        <li class="media-container">
+          <figure>
+            <img src="../imagenes/contacto/instagram.png" alt="Instagram" class="fullphoto">
+          </figure>
+          <div class="text-container-fullphoto">
+            <h2 class="container-h2">INSTAGRAM</h2>
+            <p>Visita el Instagram de Universal Pictures</p>
+            <div class="link-container">
+              <a href="paginas/contacto.html" class="button-link">Instagram</a>
+            </div>
+          </div>
+        </li>
+        <li class="media-container">
+          <figure>
+            <img src="../imagenes/contacto/facebook.png" alt="Facebook" class="fullphoto">
+          </figure>
+          <div class="text-container-fullphoto">
+            <h2 class="container-h2">FACEBOOK</h2>
+            <p>Visita el Facebook de Universal Pictures</p>
+            <div class="link-container">
+              <a href="paginas/contacto.html" class="button-link">Facebook</a>
+            </div>
+          </div>
+        </li>
+        <li class="media-container">
+          <figure>
+            <img src="../imagenes/contacto/max.png" alt="HBO Max" class="fullphoto">
+          </figure>
+          <div class="text-container-fullphoto">
+            <h2 class="container-h2">HBO Max</h2>
+            <p>Mira la pelicula en HBO Max</p>
+            <div class="link-container">
+              <a href="paginas/contacto.html" class="button-link">HBO Max</a>
+            </div>
+          </div>
+        </li>
+        <li class="media-container">
+          <figure>
+            <img src="../imagenes/contacto/preview.jpg" alt="Preview" class="fullphoto">
+          </figure>
+          <div class="text-container-fullphoto">
+            <h2 class="container-h2">EXTENDED PREVIEW</h2>
+            <p><b>Mira un adelanto de la pelicula por Youtube</b></p>
+            <div class="link-container">
+              <a href="paginas/contacto.html" class="button-link">Ver vista previa</a>
+            </div>
+          </div>
+        </li>
+      </ul>
   </main>
   <footer>
-    <h4>SITIO WEB HECHO POR LAUTARO MEDINA</h4>
-    <a href="../index.html">INICIO</a>
-    <a href="pelicula.html">SOBRE LA PELICULA</a>
-    <a href="reparto.html">REPARTO</a>
-    <a href="curiosidades.html">CURIOSIDADES</a>
-    <a href="contacto.html" id="endfooter">CONTACTO</a>
+      <h4 class="footer-h4">SITIO WEB HECHO POR LAUTARO MEDINA</h4>
+      <a href="../index.html" class="a-footer">INICIO</a>
+      <a href="pelicula.html" class="a-footer">SOBRE LA PELICULA</a>
+      <a href="reparto.html" class="a-footer">REPARTO</a>
+      <a href="curiosidades.html" class="a-footer">CURIOSIDADES</a>
+      <a href="contacto.html" class="a-footer">CONTACTO</a>
   </footer>
 </body>
 </html>
