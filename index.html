@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="estilos/principal.css">
+    <link rel="stylesheet" href="estilos/general.css">
+    <link rel="stylesheet" href="estilos/index.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,17 +20,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="panel">
+        <ul>
+            <li>
+                <a href="#">INICIO</a>
+            </li>
+            <li>
+                <a href="paginas/pelicula.html">SOBRE LA PELICULA</a>
+            </li>
+            <li>
+                <a href="paginas/reparto.html">REPARTO</a>
+            </li>
+            <li>
+                <a href="paginas/curiosidades.html">CURIOSIDADES</a>
+            </li>
+            <li>
+                <a href="paginas/contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </div>
     <header>
-        <div class="header-ico"></div>
-        <h1 id="titleheader"><a href="index.html" id="header-link">FNAF - La pelicula</a></h1>
-        <nav>
-            <a id="selected">INICIO</a>
-            <a href="paginas/pelicula.html" class="nav-page">SOBRE LA PELÍCULA</a>
-            <a href="paginas/reparto.html" class="nav-page">REPARTO</a>
-            <a href="paginas/curiosidades.html" class="nav-page">CURIOSIDADES</a>
-            <a href="paginas/contacto.html" class="nav-page">CONTACTO</a>
+        <nav class="top-nav">
+            <a href="#panel" id="abrir"><img src="imagenes/banner/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Abrir"></a>
+            <a href="#c" id="close"><img src="imagenes/banner/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Cerrar"></a>
         </nav>
+        <img src="imagenes/banner/fnaf logo.png" alt="FNAF LOGO" class="logo">
     </header>
+    <div id="opacidad"></div>
     <main>
         <h2>NOCHE 1 - FICHA TÉCNICA</h2>
         <div class="ficha-container">
@@ -58,6 +75,10 @@
                 </ul>
             </ul>
         </div>
+        <section class="preview">
+            <h2>MIRA LA VISTA PREVIA DE LA PELICULA</h2>
+            <iframe width="780" height="438" src="https://www.youtube.com/embed/MLpP8BMlqiE?si=OAYPEgjWk0BNVI3C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+        </section>
         <h2>EXPLORA LA PÁGINA</h2>
         <div class="section-nav">
             <figure class="fig-nav">
@@ -88,7 +109,6 @@
                     <li>Nombre de los actores</li>
                     <li>Detalles sobre el personaje que interpretan</li>
                     <li>Actores de voz</li>
-                    <li>Actores para los animatronicos</li>
                 </ul>
                 <div class="link-container">
                     <a href="paginas/reparto.html" class="button-link">Haz clic para visitar la seccion</a>
@@ -122,9 +142,7 @@
                 <p>Esta seccion esta hecha para aquellos que:</p>
                 <ul class="ul-container-nav">
                     <li>Quieran realizar consultas sobre la pelicula</li>
-                    <li>Quieran ver las plataformas de Streaming disponibles</li>
-                    <li>Quieran visitar la pagina oficial de la pelicula</li>
-                    <li>Quieran visitar las redes sociales de la productora</li>
+                    <li>Quieran sugerir algo referente a la pagina</li>
                 </ul>
                 <div class="link-container">
                     <a href="paginas/contacto.html" class="button-link">Haz clic para visitar la seccion</a>
@@ -133,12 +151,44 @@
         </div>
     </main>
     <footer>
-        <h4 class="footer-h4">SITIO WEB HECHO POR LAUTARO MEDINA</h4>
-        <a href="index.html" class="a-footer">INICIO</a>
-        <a href="paginas/pelicula.html" class="a-footer">SOBRE LA PELÍCULA</a>
-        <a href="paginas/reparto.html" class="a-footer">REPARTO</a>
-        <a href="paginas/curiosidades.html" class="a-footer">CURIOSIDADES</a>
-        <a href="paginas/contacto.html" class="a-footer">CONTACTO</a>
+        <h2><strong>© Copyright 2025. Todas las imagenes pertenecen a Universal Studios.</strong></h2>
+        <form action="paginas/confirmarNews.html">
+          <label>
+            Suscribite a nuestro newsletter:
+            <input type="email" required autocomplete="off" size="30" maxlength="40">
+            <button type="submit" class="form-button">Suscribirse</button>
+          </label>
+        </form>
+        <nav class="bottom-nav">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="paginas/pelicula.html">Sobre la pelicula</a>
+                </li>
+                <li>
+                    <a href="paginas/reparto.html">Reparto</a>
+                </li>
+                <li>
+                    <a href="paginas/curiosidades.html">Curiosidades</a>
+                </li>
+                <li>
+                    <a href="paginas/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="social-media-container">
+            <a href="https://www.instagram.com/universalpictures/?hl=es" target="_blank">
+                <img src="imagenes/socialmedia/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/UniversalPicturesArg/?locale=es_LA" target="_blank">
+                <img src="imagenes/socialmedia/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.max.com/ar/es/movies/five-nights-at-freddys/7af81121-c224-4cd7-8900-5827e6a5ee87" target="_blank">
+                <img src="imagenes/socialmedia/hbo.png" alt="HBO Max">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="../estilos/general.css">
     <link rel="stylesheet" href="../estilos/reparto.css">
 <head>
     <meta charset="UTF-8">
@@ -19,119 +20,175 @@
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="panel">
+        <ul>
+            <li>
+                <a href="../index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="pelicula.html">SOBRE LA PELICULA</a>
+            </li>
+            <li>
+                <a href="#">REPARTO</a>
+            </li>
+            <li>
+                <a href="curiosidades.html">CURIOSIDADES</a>
+            </li>
+            <li>
+                <a href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </div>
     <header>
-        <div class="header-ico"></div>
-        <h1 id="titleheader"><a href="../index.html" id="header-link">FNAF - La pelicula</a></h1>
-        <nav>
-            <a href="../index.html" class="nav-page">INICIO</a>
-            <a href="pelicula.html" class="nav-page">SOBRE LA PELÍCULA</a>
-            <a id="selected">REPARTO</a>
-            <a href="curiosidades.html" class="nav-page">CURIOSIDADES</a>
-            <a href="contacto.html" class="nav-page">CONTACTO</a>
+        <nav class="top-nav">
+            <a href="#panel" id="abrir"><img src="../imagenes/banner/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Abrir"></a>
+            <a href="#c" id="close"><img src="../imagenes/banner/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Cerrar"></a>
         </nav>
+        <img src="../imagenes/banner/fnaf logo.png" alt="FNAF LOGO" class="logo">
     </header>
+    <div id="opacidad"></div>
   <main>
-    <section>
         <h2>NOCHE 3 - REPARTO</h2>
         <aside>
           <h3>CONTENIDO DE LA PÁGINA:</h3>
           <ol>
-            <li><strong>Actores (Personas)</strong></li>
-            <li><strong>Actores (Animatronicos)</strong></li>
+            <li>
+              <strong><a href="#personas">Actores (Personas)</a></strong>
+            </li>
+            <li>
+              <strong><a href="#animatronicos">Actores (Animatronicos)</a></strong>
+            </li>
           </ol>
         </aside>
         <hr>
-        <h3>ACTORES (PERSONAS)</h3>
-        <figure>
-          <img src="../imagenes/actores/personas/ryan reinike.jpg" alt="Ryan Reinike" class="actor">
-        </figure>
-        <aside>
-           <h4 class="personaje">RYAN REINIKE</h4>
-          <p class="desc"><strong>Guardia de seguridad en el principio de la pelicula</strong></p>  
-        </aside>
-        <figure>
-          <img src="../imagenes/actores/personas/josh hutcherson.jpg" alt="Josh Hutcherson" class="actor"> 
-        </figure>
-        <aside>
-          <h4 class="personaje">JOSH HUTCHERSON</h4>
-          <p class="desc"><strong>Mike Schmidth</strong></p>  
-        </aside>
-        <figure>
-          <img src="../imagenes/actores/personas/mathew lilard.jpg" alt="Mathew Lilard" class="actor"> 
-        </figure>
-        <aside>
-          <h4 class="personaje">MATHEW LILARD</h4>
-          <p class="desc"><strong>William Afton - Consejero Profesional</strong></p>  
-        </aside>
-        <figure>
-          <img src="../imagenes/actores/personas/mary stuart.jpg" alt="Mary Stuart" class="actor">
-        </figure>
-        <aside>
-          <h4 class="personaje">MARY STUART</h4>
-          <p class="desc"><strong>Tia Jane</strong></p>  
-        </aside>
-        <figure>
-          <img src="../imagenes/actores/personas/piper rubio.jpg" alt="Piper Rubio" class="actor"> 
-        </figure>
-        <aside>
-          <h4 class="personaje">PIPER RUBIO</h4>
-          <p class="desc"><strong>Abby</strong></p> 
-        </aside>
-        <figure>
-          <img src="../imagenes/actores/personas/kat conner.jpg" alt="Kat Conner" class="actor"><br>  
-        </figure>
-        <aside>
-          <h4 class="personaje">KAT CONNER</h4>
-          <p class="desc"><strong>Niñera de Abby</strong></p>  
-        </aside>
+        <h3 id="personas">ACTORES (PERSONAS)</h3>
+        <section>
+          <div class="actores-container">
+            <div class="information-container">
+              <img src="../imagenes/actores/personas/ryan reinike.jpg" alt="Ryan Reinike" class="actor">
+              <article>
+                <h4 class="personaje">RYAN REINIKE</h4>
+                <p class="desc"><strong>Guardia de seguridad en el principio de la pelicula</strong></p>  
+              </article>
+            </div>
+            <div class="information-container">
+              <img src="../imagenes/actores/personas/josh hutcherson.jpg" alt="Josh Hutcherson" class="actor"> 
+              <article>
+                <h4 class="personaje">JOSH HUTCHERSON</h4>
+                <p class="desc"><strong>Mike Schmidth</strong></p>  
+              </article>
+            </div>
+            <div class="information-container">
+              <img src="../imagenes/actores/personas/mathew lilard.jpg" alt="Mathew Lilard" class="actor"> 
+              <article>
+                <h4 class="personaje">MATHEW LILARD</h4>
+                <p class="desc"><strong>William Afton - Consejero Profesional</strong></p>  
+              </article>
+            </div>
+            <div class="information-container">
+              <img src="../imagenes/actores/personas/mary stuart.jpg" alt="Mary Stuart" class="actor">
+              <article>
+                <h4 class="personaje">MARY STUART</h4>
+                <p class="desc"><strong>Tia Jane</strong></p>  
+              </article>
+            </div>
+            <div class="information-container">
+              <img src="../imagenes/actores/personas/piper rubio.jpg" alt="Piper Rubio" class="actor"> 
+              <article>
+                <h4 class="personaje">PIPER RUBIO</h4>
+                <p class="desc"><strong>Abby</strong></p> 
+              </article>
+            </div>
+            <div class="information-container">
+              <img src="../imagenes/actores/personas/kat conner.jpg" alt="Kat Conner" class="actor"><br>  
+              <article>
+                <h4 class="personaje">KAT CONNER</h4>
+                <p class="desc"><strong>Niñera de Abby</strong></p>  
+              </article>
+            </div>
+          </div>
     </section>
     <hr>
+    <h3 id="animatronicos">ACTORES (ANIMATRONICOS)</h3>
     <section>
-        <h3>ACTORES (ANIMATRONICOS)</h3>
-          <figure>
+        <div class="actores-container">
+          <div class="information-container">
             <img src="../imagenes/actores/animatronicos/kevin foster.jpg" alt="Kevin Foster" class="actor">  
-          </figure>
-          <aside>
-            <h4 id="freddy">KEVIN FOSTER</h4>
-            <p class="desc"><strong>Freddy</strong></p>  
-          </aside>
-          <figure>
+            <article>
+              <h4 id="freddy">KEVIN FOSTER</h4>
+              <p class="desc"><strong>Freddy</strong></p>  
+            </article>
+          </div>
+          <div class="information-container">
             <img src="../imagenes/actores/animatronicos/jade kindar.jpg" alt="Jade Kindar" class="actor">
-          </figure>
-          <aside>
-            <h4 id="bonnie">JADE KINDAR</h4>
-            <p class="desc"><strong>Bonnie</strong></p> 
-          </aside>
-          <figure>
+            <article>
+              <h4 id="bonnie">JADE KINDAR</h4>
+              <p class="desc"><strong>Bonnie</strong></p> 
+            </article>
+          </div>
+          <div class="information-container">
             <img src="../imagenes/actores/animatronicos/jess weiss.jpg" alt="Jess Weiss" class="actor"> 
-          </figure>
-          <aside>
-            <h4 id="chica">JESS WEIS</h4>
-            <p class="desc"><strong>Chica</strong></p> 
-          </aside>
-          <figure>
+            <article>
+              <h4 id="chica">JESS WEIS</h4>
+              <p class="desc"><strong>Chica</strong></p> 
+            </article>
+          </div>
+          <div class="information-container">
             <img src="../imagenes/actores/animatronicos/kellen goff.jpg" alt="Kellen Goff" class="actor"> 
-          </figure>
-          <aside>
-            <h4 id="foxy">KELLEN GOFF</h4>
-            <p class="desc"><strong>Foxy</strong></p>  
-          </aside>
-          <figure>
+            <article>
+              <h4 id="foxy">KELLEN GOFF</h4>
+              <p class="desc"><strong>Foxy</strong></p>  
+            </article>
+          </div>
+          <div class="information-container">
             <img src="../imagenes/actores/animatronicos/jim henson.jpg" alt="Jim Henson" class="actor"> 
-          </figure>
-          <aside>
-            <h4 id="goldenfreddy">JIM HENSON</h4>
-            <p class="desc"><strong>Golden Freddy</strong></p>  
-          </aside>
+            <article>
+              <h4 id="goldenfreddy">JIM HENSON</h4>
+              <p class="desc"><strong>Golden Freddy</strong></p>  
+            </article>
+          </div>
+        </div>
     </section>
-  </main>
-  <footer>
-    <h4 class="footer-h4">SITIO WEB HECHO POR LAUTARO MEDINA</h4>
-    <a href="../index.html" class="a-footer">INICIO</a>
-    <a href="pelicula.html" class="a-footer">SOBRE LA PELICULA</a>
-    <a href="reparto.html" class="a-footer">REPARTO</a>
-    <a href="curiosidades.html" class="a-footer">CURIOSIDADES</a>
-    <a href="contacto.html" class="a-footer">CONTACTO</a>
-  </footer>
+    </main>
+    <footer>
+        <h2><strong>© Copyright 2025. Todas las imagenes pertenecen a Universal Studios.</strong></h2>
+        <form action="confirmarNews.html">
+          <label>
+            Suscribite a nuestro newsletter:
+            <input type="email" required autocomplete="off" size="30" maxlength="40">
+            <button type="submit" class="form-button">Suscribirse</button>
+          </label>
+        </form>
+        <nav class="bottom-nav">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="pelicula.html">Sobre la pelicula</a>
+                </li>
+                <li>
+                    <a href="#">Reparto</a>
+                </li>
+                <li>
+                    <a href="curiosidades.html">Curiosidades</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="social-media-container">
+            <a href="https://www.instagram.com/universalpictures/?hl=es" target="_blank">
+                <img src="../imagenes/socialmedia/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/UniversalPicturesArg/?locale=es_LA" target="_blank">
+                <img src="../imagenes/socialmedia/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.max.com/ar/es/movies/five-nights-at-freddys/7af81121-c224-4cd7-8900-5827e6a5ee87" target="_blank">
+                <img src="../imagenes/socialmedia/hbo.png" alt="HBO Max">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

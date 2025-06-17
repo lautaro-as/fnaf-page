@@ -1,0 +1,35 @@
+h1 {
+
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+
+}
+h2 {
+
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 24px;
+
+}
+main {
+
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+
+}
+footer {
+
+    flex: 1fr;
+
+}

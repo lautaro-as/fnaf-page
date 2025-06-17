@@ -1,0 +1,326 @@
+* {
+
+    scroll-behavior: smooth;
+    cursor: url(../imagenes/cursor/FreddyDollCursor.cur), auto;
+
+}
+header {
+
+    position: fixed;
+    background-color: rgb(31, 31, 31);
+    margin-top: 0;
+    width: 100%;
+    height: 54px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    top: 0;
+
+}
+.logo {
+
+    height: 54px;
+    width: 134px;
+    margin: auto;
+
+}
+#panel {
+
+    position: fixed;
+    top: 79px;
+    left: -1000px;
+    z-index: 998;
+    height: 100vh;
+    width: 512px;
+    background-color: rgb(41, 41, 41);
+    transition: left 0.5s ease;
+
+}
+#panel ul {
+
+    margin-top: 25px;
+    margin-bottom: 0px;
+    list-style-type: none;
+
+}
+#panel li {
+
+    font-family: "Tiny5", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
+
+}
+#panel a {
+
+    text-decoration: none;
+    color: white;
+
+}
+#panel a:hover {
+
+    color: antiquewhite;
+
+}
+.top-nav img {
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 5px 0px 0px 5px;
+    cursor: url(../imagenes/cursor/microphone.cur), auto;
+
+}
+#close {
+
+    display: none;
+
+}
+#panel:target {
+
+    left: 0;
+
+}
+#panel:target ~ header nav #abrir {
+
+    display: none;
+
+}
+#panel:target ~ header nav #close {
+
+    display: inline-block;
+
+}
+#opacidad {
+
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 997;
+    background-color: rgb(0,0,0);
+    opacity: 0;
+    transition: 0.3s ease;
+    pointer-events: none;
+
+}
+#panel:target ~ #opacidad {
+
+    opacity: 0.5;
+    pointer-events: auto;
+
+}
+main {
+
+    margin-top: 90px;
+
+}
+body {
+
+    background-color: rgb(41, 41, 41);
+    margin: 0;
+
+}
+.moviephoto {
+
+    height: 438px;
+    width: 780px;
+
+}
+figcaption {
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style:italic;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    color: rgb(226, 223, 223);
+
+}
+label {
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    color: rgb(226, 223, 223);
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+
+}
+input {
+
+    margin: 10px 0px 10px 0px;
+
+}
+.form-button {
+
+    padding: 10px 25px 10px 25px;
+    border-radius: 1rem;
+    border: 2px solid black;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+
+}
+.form-button:hover {
+
+    background-color: rgb(187, 238, 110);
+
+}
+.form-button:active {
+
+    background-color: rgb(148, 197, 74);
+
+}
+footer {
+
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: rgb(31, 31, 31);
+
+}
+footer h2 {
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    font-size: 20px;
+
+}
+.bottom-nav {
+
+    padding: 20px 0px 20px 0px;
+    width: fit-content;
+    margin: auto;
+
+}
+.bottom-nav ul {
+
+    list-style-type: none;
+
+}
+.bottom-nav li {
+
+    padding: 5px 0px 5px 0px;
+
+}
+.bottom-nav a {
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.bottom-nav a:hover {
+
+    text-decoration: underline;
+    color: rgb(60, 141, 60);
+
+}
+.bottom-nav a:visited {
+
+    text-decoration: underline;
+    color: rgb(66, 194, 66);
+
+}
+.social-media-container {
+
+    display: flex;
+    align-content: center;
+    width: 156px;
+    margin: 0 auto;
+
+}
+.social-media-container a {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+
+}
+.social-media-container img {
+
+    height: 28px;
+    width: 28px;
+    cursor: url(../imagenes/cursor/microphone.cur), auto;
+
+}
+.social-media-container img:hover {
+
+    height: 32px;
+    width: 32px;
+
+}
