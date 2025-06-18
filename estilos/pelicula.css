@@ -1,3 +1,10 @@
+audio {
+
+    right: 0vh;
+    position: fixed;
+    opacity: 0.3;
+
+}
 .content-link {
 
     font-family: "Roboto Flex", sans-serif;
@@ -105,7 +112,7 @@ p {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 18px;
+    font-size: 20px;
 
 }
 ol {
@@ -133,7 +140,7 @@ ol li {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 18px;
+    font-size: 20px;
 
 }
 figure {
@@ -160,12 +167,6 @@ figcaption {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-
-}
-.moviephoto {
-
-    height: 438px;
-    width: 780px;
 
 }
 .linkphoto {

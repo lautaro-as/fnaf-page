@@ -5,7 +5,7 @@ h2 {
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 24px;
+    font-size: 28px;
 
 }
 h3 {
@@ -63,6 +63,7 @@ ol li {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
+    font-size: 20px;
 
 }
 section {

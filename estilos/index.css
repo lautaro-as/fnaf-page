@@ -107,6 +107,7 @@ li {
     width: 446px;
     height: 631px;
     margin-left: 100px;
+    box-shadow: 3px 3px 10px black;
 
 }
 figure {
