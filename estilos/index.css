@@ -192,6 +192,7 @@ figure {
     background-color: rgb(219, 78, 78);
     border: 3px solid rgb(219, 55, 55);
     border-radius: 10px;
+    transition: 0.4s ease-out;
 
 }
 .button-link:hover {

@@ -138,6 +138,7 @@ fieldset legend {
         "YTFI" 738,
         "YTLC" 514,
         "YTUC" 712;
+    transition: 0.4s ease-out;
 
 }
 .form-button-reset:hover {
@@ -202,6 +203,7 @@ hr {
     background-color: rgb(219, 78, 78);
     border: 3px solid rgb(219, 55, 55);
     border-radius: 10px;
+    transition: 0.4s ease-out;
 
 }
 .button-link:hover {

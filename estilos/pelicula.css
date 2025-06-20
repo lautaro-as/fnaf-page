@@ -3,6 +3,12 @@ audio {
     right: 0vh;
     position: fixed;
     opacity: 0.3;
+    transition: 0.2s ease-out;
+
+}
+audio:hover {
+
+    opacity: 0.8;
 
 }
 .content-link {
@@ -25,6 +31,7 @@ audio {
         "YTUC" 712;
     color: rgb(226, 223, 223);
     text-decoration: none;
+    transition: 0.2s ease-out;
 
 }
 .content-link:hover {
@@ -77,17 +84,6 @@ h3 {
 hr {
 
     margin-bottom: 0px;
-
-}
-a {
-
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-right: 5px;
-    color: white;
-    cursor: url(../imagenes/cursor/microphone.cur), auto;
 
 }
 p {
@@ -167,19 +163,5 @@ figcaption {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-
-}
-.linkphoto {
-
-    height: 438px;
-    width: 780px;
-
-}
-.linkphoto:hover {
-
-    height: 442px;
-    width: 788px;
-    box-shadow: 5px 5px 15px rgb(19, 19, 19);
-    cursor: url(../imagenes/cursor/microphone.cur), auto;
 
 }

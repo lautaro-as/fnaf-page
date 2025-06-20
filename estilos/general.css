@@ -59,6 +59,7 @@ header {
 
     text-decoration: none;
     color: white;
+    transition: 0.4s ease-out;
 
 }
 #panel a:hover {
@@ -214,6 +215,7 @@ input {
         "YTUC" 712;
     width: fit-content;
     margin: auto;
+    transition: 0.3s ease-out;
 
 }
 .form-button:hover {
@@ -309,6 +311,7 @@ footer h2 {
 #on-page {
 
     color: rgb(66, 194, 66);
+    transition: 0.4s ease-out;
 
 }
 #on-page:hover {
@@ -337,6 +340,7 @@ footer h2 {
     height: 28px;
     width: 28px;
     cursor: url(../imagenes/cursor/microphone.cur), auto;
+    transition: 0.1s ease-out;
 
 }
 .social-media-container img:hover {
