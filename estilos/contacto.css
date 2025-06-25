@@ -27,17 +27,6 @@ h4 {
     color: white;
 
 }
-a {
-
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-family: "Tiny5", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin-right: 5px;
-    color: white;
-    cursor: url(../imagenes/cursor/microphone.cur), auto;
-
-}
 p {
 
     margin-left: 4%;
@@ -73,8 +62,8 @@ p {
 }
 .media-container {
 
+    position: relative;
     list-style-type: none;
-    float: left;
     margin-bottom: 50px;
     margin-top: 25px;
     width: fit-content;
@@ -174,11 +163,6 @@ hr {
     margin-top: 10px;
 
 }
-.link-container {
-
-    margin-top: 90px;
-
-}
 .button-link {
 
     text-decoration: none;
@@ -200,16 +184,26 @@ hr {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    background-color: rgb(219, 78, 78);
-    border: 3px solid rgb(219, 55, 55);
+    background-color: rgb(207, 38, 38);
+    border: 3px solid rgb(168, 21, 21);
     border-radius: 10px;
     transition: 0.4s ease-out;
 
 }
 .button-link:hover {
 
-    background-color: rgb(51, 194, 51);
-    border: 3px solid rgb(32, 119, 32);
+    background-color: rgb(52, 207, 38);
+    border: 3px solid rgb(21, 168, 21);
+    cursor: url(../imagenes/cursor/microphone.cur), auto;
+
+}
+.link-container {
+
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    margin: auto;
 
 }
 figure {

@@ -33,10 +33,26 @@ main {
     padding: 10px 25px 10px 25px;
     background-color: crimson;
     border-radius: 2rem;
-    border: 1px solid rgb(179, 14, 47);
+    border: 2px solid rgb(179, 14, 47);
     margin: auto;
     color: white;
     text-decoration: none;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
     transition: 0.4s ease;
 
 }

@@ -58,6 +58,17 @@ a {
         "YTFI" 738,
         "YTLC" 514,
         "YTUC" 712;
+    color: blue;
+
+}
+.citelink:active {
+
+    color: blueviolet;
+
+}
+.citelink:visited {
+
+    color: blueviolet;
 
 }
 .curiosidades {

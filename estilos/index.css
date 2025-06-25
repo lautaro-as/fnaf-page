@@ -189,16 +189,16 @@ figure {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    background-color: rgb(219, 78, 78);
-    border: 3px solid rgb(219, 55, 55);
-    border-radius: 10px;
+    background-color: rgb(207, 38, 38);
+    border: 3px solid rgb(168, 21, 21);
+    border-radius: 25px;
     transition: 0.4s ease-out;
 
 }
 .button-link:hover {
 
-    background-color: rgb(51, 194, 51);
-    border: 3px solid rgb(32, 119, 32);
+    background-color: rgb(52, 207, 38);
+    border: 3px solid rgb(21, 168, 21);
 
 }
 figcaption {
