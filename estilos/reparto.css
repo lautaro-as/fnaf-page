@@ -240,36 +240,3 @@ ol li a {
     text-shadow: 2px 2px 5px rgb(233, 233, 126);
 
 }
-footer {
-
-    margin-top: auto;
-    bottom: 0;
-    text-align: center;
-    background-color: rgb(31, 31, 31);
-    margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 30px;
-
-}
-.footer-h4 {
-
-    margin-top: 0;
-    margin-bottom: 10px;
-
-}
-.a-footer {
-
-    text-decoration: none;
-    color: rgb(219, 78, 78);
-
-}
-.a-footer:hover {
-
-    text-decoration: underline;
-
-}
-.a-footer:active {
-
-    color: rgb(51, 194, 51);
-
-}
