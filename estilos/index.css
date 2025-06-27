@@ -169,9 +169,10 @@ figure {
 .button-link {
 
     position: absolute;
-    bottom: 10px;
+    bottom: 35px;
     text-decoration: none;
     padding: 5px 20px 5px 20px;
+    width: fit-content;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -199,6 +200,8 @@ figure {
 
     background-color: rgb(52, 207, 38);
     border: 3px solid rgb(21, 168, 21);
+    color: rgb(6, 77, 6);
+    font-weight: 300;
 
 }
 figcaption {
