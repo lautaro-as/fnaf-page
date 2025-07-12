@@ -201,7 +201,7 @@
         right: 0;
         margin: auto;
 
-    }    
+    }
 
 }
 h2 {
@@ -401,8 +401,6 @@ figcaption {
 .preview {
 
     width: fit-content;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 100px;
+    margin: 0px auto 0px auto;
 
 }
