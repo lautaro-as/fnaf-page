@@ -19,12 +19,17 @@ header {
     top: 0;
 
 }
+#logo-link {
+
+    margin: auto;
+
+}
 .logo {
 
     height: 54px;
     width: 134px;
     padding-right: 27.5px;
-    margin: auto;
+    cursor: url(../imagenes/cursor/microphone.cur), auto;
 
 }
 #panel {
@@ -294,6 +299,7 @@ footer h2 {
         "YTUC" 712;
     font-size: 18px;
     text-decoration: none;
+    color: white;
 
 }
 .bottom-nav a:hover {
@@ -345,7 +351,6 @@ footer h2 {
 }
 .social-media-container img:hover {
 
-    height: 32px;
-    width: 32px;
+    scale: 1.2;
 
 }

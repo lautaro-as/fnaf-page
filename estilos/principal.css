@@ -1,85 +1,42 @@
-* {
-
-    cursor: url(../imagenes/cursor/FreddyDollCursor.cur), auto;
-
-}
 header {
 
+    text-align: center;
     background-color: rgb(31, 31, 31);
-    margin-top: 0;
-    width: 100%;
-    height: 54px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-
-}
-.header-ico {
-
-    float: left;
-    margin-left: 40px;
-    width: 54px;
-    height: 54px;
-    background-image: url(../imagenes/fnaf\ logo.png);
 
 }
 #titleheader {
 
-    float: left;
     margin-top: 0;
     margin-bottom: 7px;
-    margin-left: 40px;
     font-family: "Winky Rough", sans-serif;
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 8px orange;
-    height: 43px;
-    font-size: 32px;
-    text-decoration: none;
 
 }
-#header-link {
+button {
 
-    float: left;
-    margin-top: 0;
-    font-family: "Winky Rough", sans-serif;
-    font-family: "Bungee Spice", sans-serif;
-    font-weight: 400;
+    margin-bottom: 3px;
+    background-color:firebrick;
+    border: 2px gray solid;
+    border-radius: 3px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 200;
     font-style: normal;
-    text-shadow: 2px 2px 8px orange;
-    height: 43px;
-    font-size: 32px;
-    text-decoration: none;
-
-}
-nav {
-
-    float: right;
-    margin-top: 25px;
-    margin-right: 15px;
-    width: fit-content;
-    height: 18px;
-
-}
-.nav-page {
-
-    text-decoration: none;
-    color: white;
-    margin-left: 5px;
-    font-size: 20px;
-
-}
-.nav-page:hover {
-
-    text-decoration: underline;
+    color: antiquewhite;
 
 }
 #selected {
 
-    margin-left: 5px;
-    color:rgb(34, 178, 41);
-    text-decoration: underline;
-    font-size: 20px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    background-color:rgb(34, 178, 41);
+    border: 2px gray solid;
+    border-radius: 3px;
+    font-weight: 200;
+    font-style: normal;
+    color: antiquewhite;
 
 }
 body {
@@ -95,7 +52,6 @@ h2 {
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 24px;
 
 }
 h3 {
@@ -106,7 +62,6 @@ h3 {
     font-style: normal;
     color: white;
     margin-left: 4%;
-    font-size: 20px;
 
 }
 h4 {
@@ -116,7 +71,6 @@ h4 {
     font-weight: 300;
     font-style: normal;
     color: white;
-    font-size: 18px;
 
 }
 a {
@@ -127,7 +81,6 @@ a {
     font-style: normal;
     margin-right: 5px;
     color: white;
-    cursor: url(../imagenes/cursor/microphone.cur), auto;
 
 }
 .citelink {
@@ -171,11 +124,11 @@ p {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 18px;
 
 }
 li {
 
+    margin-left: 5%;
     margin-bottom: 8px;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
@@ -194,7 +147,6 @@ li {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 18px;
 
 }
 .curiosidades {
@@ -221,120 +173,15 @@ li {
     color: rgb(226, 223, 223);
 
 }
-.ficha-tecnica {
-
-    float: left;
-    height: 631px;
-    width: 50%;
-    margin-left: 10px;
-    overflow: hidden;
-
-}
-.ficha-container {
-
-    width: 100%;
-    overflow: auto;
-    box-sizing: border-box;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-}
 #poster {
 
     width: 446px;
     height: 631px;
-    float: left;
-    margin-left: 100px;
 
 }
 figure {
 
     text-align: center;
-
-}
-.section-nav {
-
-    margin: auto;
-    margin-bottom: 25px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background-color: rgb(31, 31, 31);
-    height: 327px;
-    box-sizing: content-box;
-    width: fit-content;
-    box-shadow: 3px 3px 25px black;
-
-}
-.fig-nav {
-
-    text-align: left;
-    margin: 0;
-    float: left;
-    height: 327px;
-    width: 485px;
-
-}
-.img-nav {
-
-    height: 327px;
-    width: 485px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-
-}
-.text-container-nav {
-
-    align-content: center;
-    float: left;
-    margin-left: 15px;
-    height: 327px;
-    width: 512px;
-    box-sizing: border-box;
-
-}
-.ul-container-nav {
-
-    text-align: left;
-    list-style-type: square;
-
-}
-.link-container {
-
-    margin-top: 50px;
-
-}
-.button-link {
-
-    text-decoration: none;
-    padding: 5px 20px 5px 20px;
-    font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "wdth" 100,
-        "GRAD" 0,
-        "XOPQ" 96,
-        "XTRA" 468,
-        "YOPQ" 79,
-        "YTAS" 750,
-        "YTDE" -203,
-        "YTFI" 738,
-        "YTLC" 514,
-        "YTUC" 712;
-    color: rgb(226, 223, 223);
-    background-color: rgb(219, 78, 78);
-    border: 3px solid rgb(219, 55, 55);
-    border-radius: 10px;
-
-}
-.button-link:hover {
-
-    background-color: rgb(51, 194, 51);
-    border: 3px solid rgb(32, 119, 32);
 
 }
 figcaption {
@@ -373,34 +220,13 @@ figcaption {
 }
 footer {
 
-    margin-top: auto;
-    bottom: 0;
     text-align: center;
     background-color: rgb(31, 31, 31);
     margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 30px;
 
 }
-.footer-h4 {
+#endfooter {
 
-    margin-top: 0;
-    margin-bottom: 10px;
-
-}
-.a-footer {
-
-    text-decoration: none;
-    color: rgb(219, 78, 78);
-
-}
-.a-footer:hover {
-
-    text-decoration: underline;
-
-}
-.a-footer:active {
-
-    color: rgb(51, 194, 51);
+    margin-bottom: 0;
 
 }

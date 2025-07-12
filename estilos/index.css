@@ -1,11 +1,220 @@
+@media screen and (min-width: 1000px) {
+
+    .ficha-container {
+
+        display: flex;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+    .ficha-tecnica {
+
+    margin-left: 10px;
+
+    }
+    figure {
+
+        width: 446px;
+        height: 631px;
+        margin-left: 75px;
+
+    }
+    #poster {
+
+        width: 446px;
+        height: 631px;
+        box-shadow: 3px 3px 10px black;
+
+    }
+    .img-nav {
+
+        height: 327px;
+        width: 485px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+    .fig-nav {
+
+        width: fit-content;
+        height: 327px;
+
+    }
+    .text-container-nav {
+
+        margin-left: 15px;
+        height: 327px;
+        width: 512px;
+
+    }
+    .button-link {
+
+        bottom: 35px;
+
+    }
+
+}
+@media screen and (max-width: 1000px) {
+
+    .ficha-container {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    figure {
+
+        margin: auto;
+        width: 293px;
+        height: 401px;
+
+    }
+    #poster {
+
+        width: 293px;
+        height: 401px;
+        box-shadow: 3px 3px 10px black;
+
+    }
+    .fig-nav {
+
+        flex-direction: column;
+
+    }
+    iframe {
+
+        width: 433px;
+        height: 229px;
+
+    }
+    .img-nav {
+
+        height: 266px;
+        width: 385px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+    .fig-nav {
+
+        width: 385px;
+        height: 100%;
+        padding-bottom: 30px;
+
+    }
+    .text-container-nav {
+
+        height: fit-content;
+        width: 90%;
+        box-sizing: border-box;
+
+    }
+    .button-link {
+
+        bottom: 25px;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+}
+@media screen and (max-width: 500px) {
+
+    .ficha-container {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    figure {
+
+        margin: auto;
+        width: 223px;
+        height: 315px;
+
+    }
+    #poster {
+
+        width: 223px;
+        height: 315px;
+        box-shadow: 3px 3px 10px black;
+
+    }
+    .fig-nav {
+
+        flex-direction: column;
+
+    }
+    iframe {
+
+        width: 332px;
+        height: 174px;
+
+    }
+    .img-nav {
+
+        height: 247px;
+        width: 340px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+    .fig-nav {
+
+        width: 340px;
+        height: 100%;
+        padding-bottom: 30px;
+
+    }
+    .text-container-nav {
+
+        height: fit-content;
+        width: 90%;
+        box-sizing: border-box;
+
+    }
+    .button-link {
+
+        bottom: 25px;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }    
+
+}
 h2 {
 
+    width: fit-content;
+    padding: 25px 0px 25px 0px;
+    margin: auto;
     text-align: center;
     font-family: "Tiny5", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 24px;
+    font-size: 1.2rem;
 
 }
 h3 {
@@ -16,7 +225,7 @@ h3 {
     font-style: normal;
     color: white;
     margin-left: 4%;
-    font-size: 20px;
+    font-size: 1.15rem;
 
 }
 h4 {
@@ -26,7 +235,7 @@ h4 {
     font-weight: 300;
     font-style: normal;
     color: white;
-    font-size: 18px;
+    font-size: 1.1rem;
 
 }
 a {
@@ -61,7 +270,7 @@ p {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 18px;
+    font-size: 1rem;
 
 }
 li {
@@ -84,38 +293,10 @@ li {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 18px;
+    font-size: 1rem;
 
 }
-.ficha-tecnica {
-
-    width: 50%;
-    margin-left: 10px;
-
-}
-.ficha-container {
-
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-}
-#poster {
-
-    width: 446px;
-    height: 631px;
-    margin-left: 100px;
-    box-shadow: 3px 3px 10px black;
-
-}
-figure {
-
-    text-align: center;
-
-}
-.section-nav {
+.fig-nav {
 
     display: flex;
     margin: auto;
@@ -125,33 +306,13 @@ figure {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     background-color: rgb(31, 31, 31);
-    height: 327px;
     box-sizing: content-box;
-    width: fit-content;
     box-shadow: 3px 3px 25px black;
     position: relative;
 
 }
-.fig-nav {
-
-    margin: 0;
-    height: 327px;
-    width: 485px;
-
-}
-.img-nav {
-
-    height: 327px;
-    width: 485px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-
-}
 .text-container-nav {
 
-    margin-left: 15px;
-    height: 327px;
-    width: 512px;
     box-sizing: border-box;
 
 }
@@ -169,9 +330,9 @@ figure {
 .button-link {
 
     position: absolute;
-    bottom: 10px;
     text-decoration: none;
     padding: 5px 20px 5px 20px;
+    width: fit-content;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -199,6 +360,8 @@ figure {
 
     background-color: rgb(52, 207, 38);
     border: 3px solid rgb(21, 168, 21);
+    color: rgb(6, 77, 6);
+    font-weight: 300;
 
 }
 figcaption {
