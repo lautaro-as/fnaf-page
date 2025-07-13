@@ -1,3 +1,50 @@
+@media screen and (min-width: 1000px) {
+
+    fieldset {
+
+        width: 55%;
+
+    }
+    .fullphoto {
+
+        height: 240px;
+        width: 445px;
+
+    }
+
+}
+@media screen and (max-width: 1000px) {
+
+    fieldset {
+
+        width: 75%;
+
+    }
+    .fullphoto {
+
+        height: 240px;
+        width: 445px;
+    
+    }
+
+}
+@media screen and (max-width: 500px) {
+
+    fieldset {
+
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 85%;
+
+    }
+    .fullphoto {
+
+        height: 150px;
+        width: 335px;
+
+    }
+
+}
 h2 {
 
     text-align: center;
@@ -66,7 +113,6 @@ p {
 fieldset {
 
     text-align: center;
-    width: 50%;
     margin: auto;
 
 }
@@ -137,14 +183,10 @@ hr {
 }
 .text-container-fullphoto {
 
+    width: 90%;
     text-align: center;
-    width: 445px;
-
-}
-.text-container-socialmedia {
-
-    text-align: center;
-    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .container-h2 {
@@ -204,16 +246,8 @@ figure {
 }
 .fullphoto {
 
-    height: 240px;
-    width: 445px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
-}
-.socialmedia {
-
-    height: 256px;
-    width: 256px;
 
 }
 .desc {

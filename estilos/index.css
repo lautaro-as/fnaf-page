@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
 
     .ficha-container {
 
@@ -58,7 +58,7 @@
     }
 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
 
     .ficha-container {
 
@@ -91,12 +91,6 @@
     .fig-nav {
 
         flex-direction: column;
-
-    }
-    iframe {
-
-        width: 433px;
-        height: 229px;
 
     }
     .img-nav {
@@ -164,12 +158,6 @@
     .fig-nav {
 
         flex-direction: column;
-
-    }
-    iframe {
-
-        width: 332px;
-        height: 174px;
 
     }
     .img-nav {

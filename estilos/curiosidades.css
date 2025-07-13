@@ -1,3 +1,58 @@
+@media screen and (min-width: 1000px) {
+
+    .curiosidades {
+
+        width: 50%;
+
+    }
+    figure {
+
+        height: 100%;
+        width: 780px;
+
+    }
+
+}
+@media screen and (max-width: 1000px) {
+
+    .curiosidades {
+
+        width: 70%;
+
+    }
+    ol {
+
+        padding-left: 0px;
+
+    }
+    figure {
+
+        width: 433px;
+        height: 100%;
+
+    }
+
+}
+@media screen and (max-width: 500px) {
+
+    .curiosidades {
+
+        width: 80%;
+
+    }
+    ol {
+
+        padding-left: 0px;
+
+    }
+    figure {
+
+        width: 332px;
+        height: 100%;
+
+    }
+
+}
 h2 {
 
     text-align: center;
@@ -73,7 +128,6 @@ a {
 }
 .curiosidades {
 
-    width: 50%;
     margin: auto;
     margin-bottom: 8px;
     font-family: "Roboto Flex", sans-serif;
@@ -98,6 +152,7 @@ a {
 }
 figure {
 
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
