@@ -60,7 +60,7 @@ h2 {
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 h3 {
@@ -71,7 +71,7 @@ h3 {
     font-style: normal;
     color: white;
     margin-left: 4%;
-    font-size: 20px;
+    font-size: 1.25rem;
 
 }
 h4 {
@@ -81,7 +81,7 @@ h4 {
     font-weight: 300;
     font-style: normal;
     color: white;
-    font-size: 18px;
+    font-size: 1.1rem;
 
 }
 a {
@@ -147,7 +147,7 @@ a {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 20px;
+    font-size: 1rem;
 
 }
 figure {

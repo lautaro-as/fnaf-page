@@ -122,7 +122,7 @@ header {
     font-family: "Tiny5", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 10px 0px 10px 0px;
 
 }
@@ -247,7 +247,7 @@ label {
         "YTLC" 514,
         "YTUC" 712;
     color: rgb(226, 223, 223);
-    font-size: 20px;
+    font-size: 1rem;
     padding: 10px 0px 10px 0px;
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ input {
     border-radius: 1rem;
     border: 2px solid rgb(30, 114, 13);
     font-family: "Roboto Flex", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
@@ -323,7 +323,7 @@ footer h2 {
         "YTFI" 738,
         "YTLC" 514,
         "YTUC" 712;
-    font-size: 20px;
+    font-size: 1.25rem;
 
 }
 .bottom-nav {
@@ -361,7 +361,7 @@ footer h2 {
         "YTFI" 738,
         "YTLC" 514,
         "YTUC" 712;
-    font-size: 18px;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
 

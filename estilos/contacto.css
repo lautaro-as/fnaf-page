@@ -52,7 +52,7 @@ h2 {
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 h3 {
@@ -63,6 +63,7 @@ h3 {
     font-style: normal;
     color: white;
     margin-left: 4%;
+    font-size: 1.25rem;
 
 }
 h4 {
@@ -72,6 +73,7 @@ h4 {
     font-weight: 300;
     font-style: normal;
     color: white;
+    font-size: 1.1rem;
 
 }
 p {
@@ -84,6 +86,7 @@ p {
     font-style: normal;
     font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468, "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
     color: rgb(226, 223, 223);
+    font-size: 1rem;
 
 }
 .list-container {
@@ -123,7 +126,7 @@ fieldset legend {
     font-weight: 200;
     font-style: normal;
     color: white;
-    font-size: 32px;
+    font-size: 2rem;
     padding: 0px 20px 0px 20px;
 
 }
@@ -147,7 +150,7 @@ fieldset legend {
     border: 2px solid rgb(156, 36, 36);
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
     font-style: normal;
     font-variation-settings:
