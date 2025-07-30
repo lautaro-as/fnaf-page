@@ -53,6 +53,7 @@
     }
     .button-link {
 
+        margin-left: 3%;
         bottom: 35px;
 
     }
@@ -335,6 +336,7 @@ li {
     position: absolute;
     text-decoration: none;
     padding: 5px 20px 5px 20px;
+    text-align: center;
     width: fit-content;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
